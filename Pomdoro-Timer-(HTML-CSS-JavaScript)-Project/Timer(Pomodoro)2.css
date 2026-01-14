@@ -1,0 +1,96 @@
+.body{
+    background-color: black;
+    height:2000px;
+}
+.TitleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20px; 
+}
+.Title{
+    color: white;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap:5px;
+    margin-top: 100px;
+}
+.Time{
+    color: white;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+.ButtonBox{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+}
+.SSButton{
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:35px;
+    padding-right:35px;
+    cursor:pointer;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border: 5px solid white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ResetButton{
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:35px;
+    padding-right:35px;
+    cursor:pointer;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    border: 5px solid white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.CountBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    gap:10px;
+    margin-top: 20px;
+}
+.Counter{
+    color: white;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.CountNumber{
+    color: white;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.CreatBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.Creat{
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
